@@ -1,0 +1,4 @@
+laptop = lenovo
+phone = IQOO Z10
+earbuds = Firebolt
+thanks
