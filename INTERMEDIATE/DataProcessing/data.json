@@ -1,0 +1,13 @@
+{
+  "snooper": {
+    "name": "Alex",
+    "age": 25,
+    "isStudent": false,
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "address": {
+      "city": "New York",
+      "zip": "10001"
+    },
+    "project": null
+  }
+}
