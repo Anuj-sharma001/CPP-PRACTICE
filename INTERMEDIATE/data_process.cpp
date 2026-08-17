@@ -89,3 +89,19 @@ public:
     const std::string& getName() const { return processorName; }
     size_t getDataSize() const { return data.size(); }
 };
+
+int main() {
+    DataProcessor processor("Demo");
+
+    processor.addData(10);
+    processor.addData(20);
+    processor.addData(30);
+
+    processor.printData();
+
+    auto stats = processor.calculateStatistics();
+    std::cout << "Average: " << stats.average << "\n";
+    std::cout << "Median: " << stats.median << "\n";
+
+    return 0;
+}
