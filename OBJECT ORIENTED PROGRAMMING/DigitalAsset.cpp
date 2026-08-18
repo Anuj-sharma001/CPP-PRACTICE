@@ -92,5 +92,4 @@ int main(){
     std::cout << "\n4. Final status:" << std::endl;
     std::cout << "Total assets remaining: " << DigitalAsset::getTotalAssets() << std::endl;
     std::cout << "\n=== Program ending - remaining objects will be destroyed ===" << std::endl;
-    
 }
